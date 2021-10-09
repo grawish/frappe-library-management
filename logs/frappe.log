@@ -1,0 +1,58 @@
+2021-10-08 01:59:51,488 ERROR frappe New Exception collected with id: 2021-10-08 01:59:51.337711-127.0.0.1-fb8
+Site: library.test
+Form Dict: {}
+2021-10-08 02:00:49,368 ERROR frappe New Exception collected with id: 2021-10-08 02:00:49.225387-127.0.0.1-787
+Site: library.test
+Form Dict: {}
+2021-10-09 02:35:25,592 ERROR frappe Could not take error snapshot: characters_written
+Site: library.test
+Form Dict: {'items': '["/assets/frappe/dist/js/build_events.bundle.HQFRKT43.js"]', 'cmd': 'frappe.client.get_js'}
+Traceback (most recent call last):
+  File "/home/goblin/frappe-bench/apps/frappe/frappe/app.py", line 66, in application
+    response = frappe.api.handle()
+  File "/home/goblin/frappe-bench/apps/frappe/frappe/api.py", line 54, in handle
+    return frappe.handler.handle()
+  File "/home/goblin/frappe-bench/apps/frappe/frappe/handler.py", line 31, in handle
+    data = execute_cmd(cmd)
+  File "/home/goblin/frappe-bench/apps/frappe/frappe/handler.py", line 67, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/goblin/frappe-bench/apps/frappe/frappe/__init__.py", line 1205, in call
+    return fn(*args, **newargs)
+  File "/home/goblin/frappe-bench/apps/frappe/frappe/client.py", line 330, in get_js
+    with open(contentpath, "r") as srcfile:
+FileNotFoundError: [Errno 2] No such file or directory: './assets/frappe/dist/js/build_events.bundle.HQFRKT43.js'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/goblin/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/goblin/frappe-bench/apps/frappe/frappe/utils/error.py", line 127, in get_snapshot
+    value = pydoc.text.repr(getattr(evalue, name))
+AttributeError: characters_written
+2021-10-09 02:35:25,598 ERROR frappe Could not take error snapshot: characters_written
+Site: library.test
+Form Dict: {'items': '["/assets/frappe/dist/js/build_events.bundle.HQFRKT43.js"]', 'cmd': 'frappe.client.get_js'}
+Traceback (most recent call last):
+  File "/home/goblin/frappe-bench/apps/frappe/frappe/app.py", line 66, in application
+    response = frappe.api.handle()
+  File "/home/goblin/frappe-bench/apps/frappe/frappe/api.py", line 54, in handle
+    return frappe.handler.handle()
+  File "/home/goblin/frappe-bench/apps/frappe/frappe/handler.py", line 31, in handle
+    data = execute_cmd(cmd)
+  File "/home/goblin/frappe-bench/apps/frappe/frappe/handler.py", line 67, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/goblin/frappe-bench/apps/frappe/frappe/__init__.py", line 1205, in call
+    return fn(*args, **newargs)
+  File "/home/goblin/frappe-bench/apps/frappe/frappe/client.py", line 330, in get_js
+    with open(contentpath, "r") as srcfile:
+FileNotFoundError: [Errno 2] No such file or directory: './assets/frappe/dist/js/build_events.bundle.HQFRKT43.js'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/goblin/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/goblin/frappe-bench/apps/frappe/frappe/utils/error.py", line 127, in get_snapshot
+    value = pydoc.text.repr(getattr(evalue, name))
+AttributeError: characters_written

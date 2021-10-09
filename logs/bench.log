@@ -1,0 +1,144 @@
+2021-10-07 14:44:52,252 DEBUG cd frappe-bench && /home/goblin/.local/bin/virtualenv -q env -p python3
+2021-10-07 14:44:54,260 LOG Getting app frappe
+2021-10-07 14:44:54,261 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2021-10-07 14:45:00,603 LOG installing frappe
+2021-10-07 14:45:00,604 DEBUG frappe-bench/env/bin/python -m pip install -q -U -e frappe-bench/apps/frappe 
+2021-10-07 14:46:35,984 DEBUG cd frappe-bench/apps/frappe && yarn install
+2021-10-07 14:47:17,912 DEBUG cd frappe-bench/apps/frappe && yarn install
+2021-10-07 14:47:19,142 DEBUG cd frappe-bench && bench build
+2021-10-07 14:47:19,473 INFO /home/goblin/.local/bin/bench build
+2021-10-07 14:48:30,527 LOG setting up backups
+2021-10-07 14:48:30,548 INFO Bench frappe-bench initialized
+2021-10-07 14:51:03,715 INFO /home/goblin/.local/bin/bench start
+2021-10-07 14:51:05,639 INFO /home/goblin/.local/bin/bench watch
+2021-10-07 14:51:05,655 INFO /home/goblin/.local/bin/bench worker --queue default
+2021-10-07 14:51:05,700 INFO /home/goblin/.local/bin/bench schedule
+2021-10-07 14:51:05,817 INFO /home/goblin/.local/bin/bench serve --port 8000
+2021-10-07 14:51:05,845 INFO /home/goblin/.local/bin/bench worker --queue short
+2021-10-07 14:51:06,002 INFO /home/goblin/.local/bin/bench worker --queue long
+2021-10-07 14:52:44,491 INFO /home/goblin/.local/bin/bench find .
+2021-10-07 14:53:02,998 INFO /home/goblin/.local/bin/bench new-app library_management
+2021-10-07 14:53:03,370 LOG creating new app library_management
+2021-10-07 14:53:41,915 LOG installing library_management
+2021-10-07 14:53:41,916 DEBUG ./env/bin/python -m pip install -q -U -e ./apps/library_management 
+2021-10-07 14:53:44,388 DEBUG bench build --app library_management
+2021-10-07 14:53:44,860 INFO /home/goblin/.local/bin/bench build --app library_management
+2021-10-07 14:56:42,598 INFO /home/goblin/.local/bin/bench new-site library.test
+2021-10-07 14:56:52,401 INFO /home/goblin/.local/bin/bench new-site library.test
+2021-10-07 14:57:33,524 INFO /home/goblin/.local/bin/bench new-site library.test
+2021-10-07 15:02:19,854 INFO /home/goblin/.local/bin/bench new-site library.test
+2021-10-07 15:07:09,426 INFO /home/goblin/.local/bin/bench new-site library.test
+2021-10-07 15:09:01,204 INFO /home/goblin/.local/bin/bench start
+2021-10-07 15:09:03,231 INFO /home/goblin/.local/bin/bench serve --port 8000
+2021-10-07 15:09:03,273 INFO /home/goblin/.local/bin/bench worker --queue default
+2021-10-07 15:09:03,296 INFO /home/goblin/.local/bin/bench worker --queue short
+2021-10-07 15:09:03,398 INFO /home/goblin/.local/bin/bench schedule
+2021-10-07 15:09:03,402 INFO /home/goblin/.local/bin/bench watch
+2021-10-07 15:09:03,527 INFO /home/goblin/.local/bin/bench worker --queue long
+2021-10-07 15:29:11,783 INFO /home/goblin/.local/bin/bench new-site library.test
+2021-10-07 15:29:28,250 INFO /home/goblin/.local/bin/bench new-site library.test
+2021-10-07 17:23:57,509 INFO /home/goblin/.local/bin/bench start
+2021-10-07 17:23:59,679 INFO /home/goblin/.local/bin/bench watch
+2021-10-07 17:23:59,679 INFO /home/goblin/.local/bin/bench schedule
+2021-10-07 17:23:59,798 INFO /home/goblin/.local/bin/bench worker --queue short
+2021-10-07 17:23:59,815 INFO /home/goblin/.local/bin/bench worker --queue long
+2021-10-07 17:23:59,842 INFO /home/goblin/.local/bin/bench serve --port 8000
+2021-10-07 17:23:59,894 INFO /home/goblin/.local/bin/bench worker --queue default
+2021-10-07 17:26:53,088 INFO /home/goblin/.local/bin/bench new-site library.test
+2021-10-07 17:27:25,509 INFO /home/goblin/.local/bin/bench new-site library.test
+2021-10-07 17:32:49,570 INFO /home/goblin/.local/bin/bench new-site library.test
+2021-10-07 17:33:26,581 INFO /home/goblin/.local/bin/bench new-site library.test
+2021-10-07 17:43:01,585 INFO /home/goblin/.local/bin/bench start
+2021-10-07 17:43:03,488 INFO /home/goblin/.local/bin/bench watch
+2021-10-07 17:43:03,933 INFO /home/goblin/.local/bin/bench serve --port 8000
+2021-10-07 17:43:03,955 INFO /home/goblin/.local/bin/bench worker --queue default
+2021-10-07 17:43:03,992 INFO /home/goblin/.local/bin/bench schedule
+2021-10-07 17:43:04,061 INFO /home/goblin/.local/bin/bench worker --queue short
+2021-10-07 17:43:04,144 INFO /home/goblin/.local/bin/bench worker --queue long
+2021-10-07 17:47:19,138 INFO /home/goblin/.local/bin/bench start
+2021-10-07 17:47:21,377 INFO /home/goblin/.local/bin/bench schedule
+2021-10-07 17:47:21,448 INFO /home/goblin/.local/bin/bench watch
+2021-10-07 17:47:21,476 INFO /home/goblin/.local/bin/bench serve --port 8000
+2021-10-07 17:47:21,498 INFO /home/goblin/.local/bin/bench worker --queue short
+2021-10-07 17:47:21,504 INFO /home/goblin/.local/bin/bench worker --queue default
+2021-10-07 17:47:21,526 INFO /home/goblin/.local/bin/bench worker --queue long
+2021-10-07 17:57:51,742 INFO /home/goblin/.local/bin/bench --site library.test install-app library_management
+2021-10-07 17:58:02,990 INFO /home/goblin/.local/bin/bench new-site library.test
+2021-10-07 18:00:02,083 INFO /home/goblin/.local/bin/bench --verbose --site all backup
+2021-10-07 18:03:59,029 INFO /home/goblin/.local/bin/bench new-site library.test
+2021-10-07 18:06:18,835 INFO /home/goblin/.local/bin/bench --site library.test install-app library_management
+2021-10-07 18:06:28,259 INFO /home/goblin/.local/bin/bench --site library.test list-apps
+2021-10-07 18:06:57,599 INFO /home/goblin/.local/bin/bench start
+2021-10-07 18:06:59,509 INFO /home/goblin/.local/bin/bench serve --port 8000
+2021-10-07 18:06:59,530 INFO /home/goblin/.local/bin/bench schedule
+2021-10-07 18:06:59,531 INFO /home/goblin/.local/bin/bench worker --queue default
+2021-10-07 18:06:59,549 INFO /home/goblin/.local/bin/bench worker --queue long
+2021-10-07 18:06:59,658 INFO /home/goblin/.local/bin/bench watch
+2021-10-07 18:06:59,706 INFO /home/goblin/.local/bin/bench worker --queue short
+2021-10-07 19:19:19,353 INFO /home/goblin/.local/bin/bench start
+2021-10-07 19:19:21,139 INFO /home/goblin/.local/bin/bench schedule
+2021-10-07 19:19:21,256 INFO /home/goblin/.local/bin/bench worker --queue short
+2021-10-07 19:19:21,345 INFO /home/goblin/.local/bin/bench serve --port 8000
+2021-10-07 19:19:21,361 INFO /home/goblin/.local/bin/bench worker --queue default
+2021-10-07 19:19:21,379 INFO /home/goblin/.local/bin/bench watch
+2021-10-07 19:19:21,495 INFO /home/goblin/.local/bin/bench worker --queue long
+2021-10-08 01:59:45,177 INFO /home/goblin/.local/bin/bench start
+2021-10-08 01:59:46,696 INFO /home/goblin/.local/bin/bench watch
+2021-10-08 01:59:46,735 INFO /home/goblin/.local/bin/bench schedule
+2021-10-08 01:59:46,831 INFO /home/goblin/.local/bin/bench serve --port 8000
+2021-10-08 01:59:46,883 INFO /home/goblin/.local/bin/bench worker --queue long
+2021-10-08 01:59:46,927 INFO /home/goblin/.local/bin/bench worker --queue short
+2021-10-08 01:59:47,001 INFO /home/goblin/.local/bin/bench worker --queue default
+2021-10-08 02:00:44,859 INFO /home/goblin/.local/bin/bench start
+2021-10-08 02:00:46,495 INFO /home/goblin/.local/bin/bench watch
+2021-10-08 02:00:46,510 INFO /home/goblin/.local/bin/bench serve --port 8000
+2021-10-08 02:00:46,512 INFO /home/goblin/.local/bin/bench worker --queue long
+2021-10-08 02:00:46,680 INFO /home/goblin/.local/bin/bench worker --queue short
+2021-10-08 02:00:46,831 INFO /home/goblin/.local/bin/bench worker --queue default
+2021-10-08 02:00:46,836 INFO /home/goblin/.local/bin/bench schedule
+2021-10-08 02:23:01,947 INFO /home/goblin/.local/bin/bench start --site browse
+2021-10-08 02:23:02,270 WARNING /home/goblin/.local/bin/bench start --site browse executed with exit code 2
+2021-10-08 02:23:14,332 INFO /home/goblin/.local/bin/bench --site browse
+2021-10-08 02:23:21,720 INFO /home/goblin/.local/bin/bench --site browse start
+2021-10-08 02:23:26,726 INFO /home/goblin/.local/bin/bench start
+2021-10-08 02:23:28,248 INFO /home/goblin/.local/bin/bench watch
+2021-10-08 02:23:28,296 INFO /home/goblin/.local/bin/bench worker --queue short
+2021-10-08 02:23:28,309 INFO /home/goblin/.local/bin/bench worker --queue default
+2021-10-08 02:23:28,326 INFO /home/goblin/.local/bin/bench serve --port 8000
+2021-10-08 02:23:28,363 INFO /home/goblin/.local/bin/bench schedule
+2021-10-08 02:23:28,409 INFO /home/goblin/.local/bin/bench worker --queue long
+2021-10-08 02:41:23,237 INFO /home/goblin/.local/bin/bench set-config -g developer_mode true
+2021-10-08 02:41:26,315 INFO /home/goblin/.local/bin/bench start
+2021-10-08 02:41:27,833 INFO /home/goblin/.local/bin/bench worker --queue short
+2021-10-08 02:41:27,861 INFO /home/goblin/.local/bin/bench schedule
+2021-10-08 02:41:27,899 INFO /home/goblin/.local/bin/bench serve --port 8000
+2021-10-08 02:41:27,920 INFO /home/goblin/.local/bin/bench worker --queue default
+2021-10-08 02:41:27,944 INFO /home/goblin/.local/bin/bench watch
+2021-10-08 02:41:28,031 INFO /home/goblin/.local/bin/bench worker --queue long
+2021-10-08 18:00:02,241 INFO /home/goblin/.local/bin/bench --verbose --site all backup
+2021-10-08 21:39:21,122 INFO /home/goblin/.local/bin/bench start
+2021-10-08 21:39:23,113 INFO /home/goblin/.local/bin/bench worker --queue long
+2021-10-08 21:39:23,171 INFO /home/goblin/.local/bin/bench serve --port 8000
+2021-10-08 21:39:23,172 INFO /home/goblin/.local/bin/bench schedule
+2021-10-08 21:39:23,292 INFO /home/goblin/.local/bin/bench watch
+2021-10-08 21:39:23,313 INFO /home/goblin/.local/bin/bench worker --queue default
+2021-10-08 21:39:23,351 INFO /home/goblin/.local/bin/bench worker --queue short
+2021-10-08 21:44:10,380 INFO /home/goblin/.local/bin/bench set-config -g developer_mode true
+2021-10-08 21:44:13,315 INFO /home/goblin/.local/bin/bench start
+2021-10-08 21:44:15,174 INFO /home/goblin/.local/bin/bench schedule
+2021-10-08 21:44:15,403 INFO /home/goblin/.local/bin/bench worker --queue default
+2021-10-08 21:44:15,745 INFO /home/goblin/.local/bin/bench serve --port 8000
+2021-10-08 21:44:15,798 INFO /home/goblin/.local/bin/bench watch
+2021-10-08 21:44:15,884 INFO /home/goblin/.local/bin/bench worker --queue short
+2021-10-08 21:44:15,960 INFO /home/goblin/.local/bin/bench worker --queue long
+2021-10-08 23:14:26,705 INFO /home/goblin/.local/bin/bench --site library.test mariadb
+2021-10-09 00:00:01,524 INFO /home/goblin/.local/bin/bench --verbose --site all backup
+2021-10-09 02:34:59,260 INFO /home/goblin/.local/bin/bench start
+2021-10-09 02:35:00,645 INFO /home/goblin/.local/bin/bench watch
+2021-10-09 02:35:00,767 INFO /home/goblin/.local/bin/bench schedule
+2021-10-09 02:35:00,961 INFO /home/goblin/.local/bin/bench worker --queue short
+2021-10-09 02:35:00,997 INFO /home/goblin/.local/bin/bench serve --port 8000
+2021-10-09 02:35:01,062 INFO /home/goblin/.local/bin/bench worker --queue default
+2021-10-09 02:35:01,216 INFO /home/goblin/.local/bin/bench worker --queue long
+2021-10-09 06:00:01,929 INFO /home/goblin/.local/bin/bench --verbose --site all backup
+2021-10-09 12:00:02,100 INFO /home/goblin/.local/bin/bench --verbose --site all backup
